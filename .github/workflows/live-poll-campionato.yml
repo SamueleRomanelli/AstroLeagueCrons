@@ -2,7 +2,7 @@ name: Live updates (poll) – Campionato
 
 on:
   schedule:
-    - cron: "*/20 * * * FRI,SAT,SUN"
+    - cron: "*/20 * * * MON,FRI,SAT,SUN"
   workflow_dispatch:
 
 jobs:
